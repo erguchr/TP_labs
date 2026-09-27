@@ -24,8 +24,8 @@ result = {
     'hardware_stats' : {
         'cpu_count': os.cpu_count(),
         'ram': f'{mem_total} GB',
-        'drive_total': f'{drive_total} GB',
-        'drive_free': f'{drive_free} GB'
+        'main_drive_total': f'{drive_total} GB',
+        'main_drive_free': f'{drive_free} GB'
     }
 }
 
